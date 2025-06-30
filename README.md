@@ -16,6 +16,26 @@ This is a simple web-based Employee Management System built using the Django fra
 - Frontend: HTML, CSS, Bootstrap  
 - Database: SQLite (default Django DB)  
 - Version Control: Git & GitHub
+
+# Project Structure
+project/
+│
+├── app1/
+│ ├── templates/
+│ │ ├── addemployee.html
+│ │ ├── updateemployee.html
+│ │ ├── deleteemployee.html
+│ │ ├── showemployee.html
+│ └── views.py
+│
+├── static/
+│ └── css/
+│ └── navbar.css
+│
+├── db.sqlite3
+├── manage.py
+├── README.md
+└── .gitignore
   
 # How to Run
 1. Clone the repo
