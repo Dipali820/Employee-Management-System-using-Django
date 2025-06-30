@@ -45,3 +45,5 @@ project/
 
 # Author
 Dipali Tompe
+B.Tech (CSE), RTM Nagpur University  
+Passionate Django developer
