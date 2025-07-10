@@ -18,24 +18,28 @@ This is a simple web-based Employee Management System built using the Django fra
 - Version Control: Git & GitHub
 
 # Project Structure
+
+
+```plaintext
 project/
 │
 ├── app1/
-│ ├── templates/
-│ │ ├── addemployee.html
-│ │ ├── updateemployee.html
-│ │ ├── deleteemployee.html
-│ │ ├── showemployee.html
-│ └── views.py
+│   ├── templates/
+│   │   ├── addemployee.html
+│   │   ├── updateemployee.html
+│   │   ├── deleteemployee.html
+│   │   └── showemployee.html
+│   └── views.py
 │
 ├── static/
-│ └── css/
-│ └── navbar.css
+│   └── css/
+│       └── navbar.css
 │
 ├── db.sqlite3
 ├── manage.py
 ├── README.md
 └── .gitignore
+```
   
 # How to Run
 1. Clone the repo
@@ -46,4 +50,6 @@ project/
 # Author
 Dipali Tompe
 B.Tech (CSE), RTM Nagpur University  
-Passionate Django developer
+Email:dipalitompe820@gmail.com
+
+Phone:9552203293
