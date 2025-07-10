@@ -1,0 +1,25 @@
+body {
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #fdf5f5;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  color: rgb(14, 11, 11);
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  text-decoration: rgb(26, 21, 13);
+}

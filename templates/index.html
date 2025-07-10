@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="{% url 'addemployee' %}">ADD</a>
+      <a href="{% url 'updateemployee'%}">UPDATE</a>
+      <a href="{% url 'deleteemployee'%}">DELETE</a>
+      <a href="{% url 'showemployee'%}">SHOW</a>
+    </div>
+
+    <div class="content">
+      <!-- Your content here -->
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>
